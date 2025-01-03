@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BMC_website/static/css/main.de4d08e6.chunk.css",
-    "main.js": "/BMC_website/static/js/main.f23d4eaa.chunk.js",
-    "main.js.map": "/BMC_website/static/js/main.f23d4eaa.chunk.js.map",
+    "main.js": "/BMC_website/static/js/main.b0a222b7.chunk.js",
+    "main.js.map": "/BMC_website/static/js/main.b0a222b7.chunk.js.map",
     "runtime-main.js": "/BMC_website/static/js/runtime-main.ef0ef8a5.js",
     "runtime-main.js.map": "/BMC_website/static/js/runtime-main.ef0ef8a5.js.map",
     "static/js/2.32be7ca4.chunk.js": "/BMC_website/static/js/2.32be7ca4.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ef0ef8a5.js",
     "static/js/2.32be7ca4.chunk.js",
     "static/css/main.de4d08e6.chunk.css",
-    "static/js/main.f23d4eaa.chunk.js"
+    "static/js/main.b0a222b7.chunk.js"
   ]
 }
