@@ -69,7 +69,15 @@ a:hover {
     text-decoration: underline;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card {
+    width: 80%;
+    max-width: 800px;
     padding: 20px;
     margin: 20px;
     background: #fff;
@@ -86,4 +94,10 @@ a:hover {
     font-size: 2em;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+.logo {
+    max-width: 100px; /* Adjusted size */
+    height: auto;
+    margin-bottom: 10px;
 }

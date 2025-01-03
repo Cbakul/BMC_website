@@ -1,9 +1,11 @@
 import React from 'react';
+import logo from '../assets/logo.png'; // Ensure you have a logo image in the assets folder
 
 const Footer = () => {
     return (
         <footer>
             <div className="footer-content">
+                <img src={logo} alt="BMC Logo" className="logo" />
                 <h3>BMC MEDICOLEGAL SOLUTIONS</h3>
                 <p>Where Medical Expertise Meets Legal Excellence</p>
                 <div className="contact-info">

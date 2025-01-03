@@ -14,19 +14,15 @@ function App() {
       <Header />
       <main>
         <div className="card">
-          <FaBriefcase className="icon" />
           <Services />
         </div>
         <div className="card">
-          <FaUserMd className="icon" />
           <Expertise />
         </div>
         <div className="card">
-          <FaUsers className="icon" />
           <WhoWeServe />
         </div>
         <div className="card">
-          <FaEnvelope className="icon" />
           <Contact />
         </div>
       </main>
