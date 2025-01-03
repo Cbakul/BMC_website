@@ -5,6 +5,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    overflow-x: hidden; /* Disable bottom scrollbar */
 }
 
 header {
@@ -101,11 +102,12 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: stretch; /* Remove centering */
+    align-items: center; /* Center the main content */
 }
 
 .card {
-    width: 100%; /* Make cards take up the whole screen */
+    width: 90%; /* Adjust width to ensure cards are contained within the main card */
+    max-width: 1600px; /* Set a max-width for better centering */
     padding: 20px;
     margin: 10px 0; /* Reduce margin */
     background: #fff;
@@ -243,5 +245,15 @@ button:hover {
 
     .hero .cta-button {
         font-size: 1em; /* Adjust font size for mobile view */
+    }
+
+    .card {
+        padding: 10px; /* Reduce padding for mobile view */
+        margin: 5px 0; /* Reduce margin for mobile view */
+    }
+
+    .card-content ul {
+        padding-left: 20px; /* Add padding to the left of the list */
+        text-align: left; /* Align text to the left for better readability */
     }
 }
