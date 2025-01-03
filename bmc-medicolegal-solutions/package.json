@@ -1,0 +1,43 @@
+{
+  "name": "bmc-medicolegal-solutions",
+  "version": "1.0.0",
+  "description": "Where Medical Expertise Meets Legal Excellence",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "medicolegal",
+    "consulting",
+    "healthcare",
+    "insurance"
+  ],
+  "author": "BMC Medicolegal Solutions",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {},
+  "homepage": "http://yourwebsite.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bmc-medicolegal-solutions.git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
