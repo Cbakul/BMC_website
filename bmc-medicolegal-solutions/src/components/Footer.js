@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="contact-info">
                     <p>Pune, Maharashtra, India</p>
                     <p>Phone: +91-9881409217</p>
-                    <p>Email: cbakul@gmail.com</p>
+                    <p>Email: bmcmedicolegalservices@gmail.com</p>
                 </div>
                 <div className="copyright">
                     <p>&copy; {new Date().getFullYear()} BMC Medicolegal Solutions. All rights reserved.</p>

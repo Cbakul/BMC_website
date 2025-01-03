@@ -68,3 +68,22 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.card {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 2em;
+    margin-right: 10px;
+    vertical-align: middle;
+}

@@ -6,16 +6,29 @@ import Expertise from './components/Expertise';
 import WhoWeServe from './components/WhoWeServe';
 import Contact from './components/Contact';
 import './styles/main.css';
+import { FaBriefcase, FaUserMd, FaUsers, FaEnvelope } from 'react-icons/fa';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-        <Services />
-        <Expertise />
-        <WhoWeServe />
-        <Contact />
+        <div className="card">
+          <FaBriefcase className="icon" />
+          <Services />
+        </div>
+        <div className="card">
+          <FaUserMd className="icon" />
+          <Expertise />
+        </div>
+        <div className="card">
+          <FaUsers className="icon" />
+          <WhoWeServe />
+        </div>
+        <div className="card">
+          <FaEnvelope className="icon" />
+          <Contact />
+        </div>
       </main>
       <Footer />
     </div>
