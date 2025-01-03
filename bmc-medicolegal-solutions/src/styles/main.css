@@ -30,7 +30,7 @@ nav {
     display: flex;
     gap: 10px; /* Reduce gap between links */
     flex-wrap: wrap; /* Allow links to wrap to the next line if needed */
-    margin-right: 20px; /* Move links a little bit to the left */
+    margin-right: 40px; /* Move links a little bit to the left */
 }
 
 nav a {
@@ -217,4 +217,31 @@ button:hover {
 
 .hero .cta-button:hover {
     background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .card-content {
+        padding: 5px; /* Reduce padding for mobile view */
+    }
+
+    h1 {
+        font-size: 2em; /* Adjust font size for mobile view */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Adjust font size for mobile view */
+    }
+
+    .hero h1 {
+        font-size: 2.5em; /* Adjust font size for mobile view */
+    }
+
+    .hero p {
+        font-size: 1.2em; /* Adjust font size for mobile view */
+    }
+
+    .hero .cta-button {
+        font-size: 1em; /* Adjust font size for mobile view */
+    }
 }
