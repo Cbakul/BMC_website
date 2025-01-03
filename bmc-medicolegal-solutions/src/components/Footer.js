@@ -1,19 +1,22 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography } from '@mui/material';
 
 const Footer = () => {
-  return (
-    <AppBar position="static" color="primary" style={{ marginTop: '20px' }}>
-      <Toolbar>
-        <Typography variant="body1" style={{ flexGrow: 1 }}>
-          &copy; {new Date().getFullYear()} BMC Medicolegal Solutions. All rights reserved.
-        </Typography>
-        <Typography variant="body2">
-          Pune, Maharashtra, India | Phone: +91-9881409217 | Email: cbakul@gmail.com
-        </Typography>
-      </Toolbar>
-    </AppBar>
-  );
+    return (
+        <footer>
+            <div className="footer-content">
+                <h3>BMC MEDICOLEGAL SOLUTIONS</h3>
+                <p>Where Medical Expertise Meets Legal Excellence</p>
+                <div className="contact-info">
+                    <p>Pune, Maharashtra, India</p>
+                    <p>Phone: +91-9881409217</p>
+                    <p>Email: cbakul@gmail.com</p>
+                </div>
+                <div className="copyright">
+                    <p>&copy; {new Date().getFullYear()} BMC Medicolegal Solutions. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    );
 };
 
 export default Footer;

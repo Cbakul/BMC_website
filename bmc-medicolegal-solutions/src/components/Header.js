@@ -1,16 +1,12 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography } from '@mui/material';
 
 const Header = () => {
-  return (
-    <AppBar position="static">
-      <Toolbar>
-        <Typography variant="h6">
-          BMC MEDICOLEGAL SOLUTIONS
-        </Typography>
-      </Toolbar>
-    </AppBar>
-  );
+    return (
+        <header>
+            <h1>BMC MEDICOLEGAL SOLUTIONS</h1>
+            <p>Where Medical Expertise Meets Legal Excellence</p>
+        </header>
+    );
 };
 
 export default Header;
