@@ -5,7 +5,7 @@ const Expertise = () => {
     return (
         <div className="card">
             <FaUserMd className="icon" />
-            <div className="expertise">
+            <div className="card-content">
                 <h2>Areas of Expertise</h2>
                 <ul>
                     <li>

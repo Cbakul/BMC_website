@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div className="card">
             <FaBriefcase className="icon" />
-            <div className="services">
+            <div className="card-content">
                 <h2>Specialized Services</h2>
                 <ul>
                     <li>

@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <div className="footer-content">
                 <img src={logo} alt="BMC Logo" className="logo" />
-                <h3>BMC MEDICOLEGAL SOLUTIONS</h3>
+                <h3>BMC INSURANCE SOLUTIONS</h3>
                 <p>Where Medical Expertise Meets Legal Excellence</p>
                 <div className="contact-info">
                     <p>Pune, Maharashtra, India</p>
@@ -14,7 +14,7 @@ const Footer = () => {
                     <p>Email: bmcmedicolegalservices@gmail.com</p>
                 </div>
                 <div className="copyright">
-                    <p>&copy; {new Date().getFullYear()} BMC Medicolegal Solutions. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} BMC Insurance Solutions. All rights reserved.</p>
                 </div>
             </div>
         </footer>

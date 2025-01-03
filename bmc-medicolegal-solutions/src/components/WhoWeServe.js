@@ -5,7 +5,7 @@ const WhoWeServe = () => {
     return (
         <div className="card">
             <FaUsers className="icon" />
-            <div className="who-we-serve">
+            <div className="card-content">
                 <h2>Who We Serve</h2>
                 <ul>
                     <li><strong>Policy Customers:</strong> Individual and group policy holders seeking expert guidance.</li>
