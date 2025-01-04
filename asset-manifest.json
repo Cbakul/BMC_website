@@ -1,22 +1,16 @@
 {
   "files": {
-    "main.css": "/BMC_website/static/css/main.de4d08e6.chunk.css",
-    "main.js": "/BMC_website/static/js/main.e5244381.chunk.js",
-    "main.js.map": "/BMC_website/static/js/main.e5244381.chunk.js.map",
-    "runtime-main.js": "/BMC_website/static/js/runtime-main.ef0ef8a5.js",
-    "runtime-main.js.map": "/BMC_website/static/js/runtime-main.ef0ef8a5.js.map",
-    "static/js/2.32be7ca4.chunk.js": "/BMC_website/static/js/2.32be7ca4.chunk.js",
-    "static/js/2.32be7ca4.chunk.js.map": "/BMC_website/static/js/2.32be7ca4.chunk.js.map",
+    "main.css": "/BMC_website/static/css/main.69ef0fcb.css",
+    "main.js": "/BMC_website/static/js/main.1860f10b.js",
+    "static/media/logo.png": "/BMC_website/static/media/logo.e47efb8b7436ffc5cb12.png",
+    "static/media/hero-image.png": "/BMC_website/static/media/hero-image.5377396c9580793c5ee5.png",
+    "static/media/profile-photo.jpg": "/BMC_website/static/media/profile-photo.dd99466746b9ec7b7173.jpg",
     "index.html": "/BMC_website/index.html",
-    "static/css/main.de4d08e6.chunk.css.map": "/BMC_website/static/css/main.de4d08e6.chunk.css.map",
-    "static/js/2.32be7ca4.chunk.js.LICENSE.txt": "/BMC_website/static/js/2.32be7ca4.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/BMC_website/static/media/hero-image.5377396c.png",
-    "static/media/logo.e47efb8b.png": "/BMC_website/static/media/logo.e47efb8b.png"
+    "main.69ef0fcb.css.map": "/BMC_website/static/css/main.69ef0fcb.css.map",
+    "main.1860f10b.js.map": "/BMC_website/static/js/main.1860f10b.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef0ef8a5.js",
-    "static/js/2.32be7ca4.chunk.js",
-    "static/css/main.de4d08e6.chunk.css",
-    "static/js/main.e5244381.chunk.js"
+    "static/css/main.69ef0fcb.css",
+    "static/js/main.1860f10b.js"
   ]
 }
