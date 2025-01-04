@@ -34,12 +34,29 @@ const Contact = () => {
       query: formData.query,
     };
 
-    emailjs.send('service_iwg8ihv', 'template_d5lm5g8', templateParams, 'YenGeHPK1aN30WWj7')
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-      }, (error) => {
-        console.log('FAILED...', error);
-      });
+    if (formData.supportingDocuments) {
+      const emailBody = `
+        Full Name: ${formData.fullName}\n
+        Phone Number: ${formData.phoneNumber}\n
+        Email Address: ${formData.emailAddress}\n
+        How Did You Hear About Us: ${formData.howDidYouHear}\n
+        Insurance Company: ${formData.insuranceCompany}\n
+        Query Type: ${formData.queryType}\n
+        Query: ${formData.query}
+      `;
+
+      const mailtoLink = `mailto:bmcmedicolegalservices@gmail.com?subject=New Query from ${formData.fullName}&body=${encodeURIComponent(emailBody)}`;
+
+      alert('Please attach the supporting documents manually in your email client.');
+      window.location.href = mailtoLink;
+    } else {
+      emailjs.send('service_iwg8ihv', 'template_d5lm5g8', templateParams, 'YenGeHPK1aN30WWj7')
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+        }, (error) => {
+          console.log('FAILED...', error);
+        });
+    }
   };
 
   return (
