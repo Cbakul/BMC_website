@@ -38,7 +38,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/yourusername/bmc-medicolegal-solutions.git
+   git clone https://github.com/Cbakul/BMC_website.git
    ```
 2. Install NPM packages
    ```bash
