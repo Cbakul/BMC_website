@@ -30,8 +30,7 @@ BMC Medicolegal Solutions is where medical expertise meets legal excellence. We 
 ## Contact Information
 
 - **Location**: Pune, Maharashtra, India
-- **Phone**: +91-9881409217
-- **Email**: cbakul@gmail.com
+- **Email**: bmcmedicolegalservices@gmail.com
 
 ## Getting Started
 
