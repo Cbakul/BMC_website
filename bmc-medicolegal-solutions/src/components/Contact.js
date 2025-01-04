@@ -60,41 +60,44 @@ const Contact = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="fullName">Full Name *</label>
-        <input type="text" id="fullName" name="fullName" placeholder="E.g. John" required onChange={handleChange} />
-      </div>
-      <div>
-        <label htmlFor="phoneNumber">Phone Number *</label>
-        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="+91" required onChange={handleChange} />
-      </div>
-      <div>
-        <label htmlFor="emailAddress">Email Address *</label>
-        <input type="email" id="emailAddress" name="emailAddress" placeholder="E.g. john@doe.com" required onChange={handleChange} />
-      </div>
-      <div>
-        <label htmlFor="howDidYouHear">How did you hear about us? *</label>
-        <input type="text" id="howDidYouHear" name="howDidYouHear" required onChange={handleChange} />
-      </div>
-      <div>
-        <label htmlFor="insuranceCompany">Insurance Company Name *</label>
-        <input type="text" id="insuranceCompany" name="insuranceCompany" required onChange={handleChange} />
-      </div>
-      <div>
-        <label htmlFor="queryType">Query Type *</label>
-        <input type="text" id="queryType" name="queryType" required onChange={handleChange} />
-      </div>
-      <div>
-        <label htmlFor="supportingDocuments">Upload Supporting Documents If Any</label>
-        <input type="file" id="supportingDocuments" name="supportingDocuments" onChange={handleChange} />
-      </div>
-      <div>
-        <label htmlFor="query">Explain your query *</label>
-        <textarea id="query" name="query" required onChange={handleChange}></textarea>
-      </div>
-      <button type="submit">Submit</button>
-    </form>
+    <div>
+      <h2>Contact Us</h2>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label htmlFor="fullName">Full Name *</label>
+          <input type="text" id="fullName" name="fullName" placeholder="E.g. John" required onChange={handleChange} />
+        </div>
+        <div>
+          <label htmlFor="phoneNumber">Phone Number *</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="+91" required onChange={handleChange} />
+        </div>
+        <div>
+          <label htmlFor="emailAddress">Email Address *</label>
+          <input type="email" id="emailAddress" name="emailAddress" placeholder="E.g. john@doe.com" required onChange={handleChange} />
+        </div>
+        <div>
+          <label htmlFor="howDidYouHear">How did you hear about us? *</label>
+          <input type="text" id="howDidYouHear" name="howDidYouHear" required onChange={handleChange} />
+        </div>
+        <div>
+          <label htmlFor="insuranceCompany">Insurance Company Name *</label>
+          <input type="text" id="insuranceCompany" name="insuranceCompany" required onChange={handleChange} />
+        </div>
+        <div>
+          <label htmlFor="queryType">Query Type *</label>
+          <input type="text" id="queryType" name="queryType" required onChange={handleChange} />
+        </div>
+        <div>
+          <label htmlFor="supportingDocuments">Upload Supporting Documents If Any</label>
+          <input type="file" id="supportingDocuments" name="supportingDocuments" onChange={handleChange} />
+        </div>
+        <div>
+          <label htmlFor="query">Explain your query *</label>
+          <textarea id="query" name="query" required onChange={handleChange}></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   );
 };
 

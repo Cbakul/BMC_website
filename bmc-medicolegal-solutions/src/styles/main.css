@@ -255,7 +255,7 @@ button:hover {
     align-items: center;
     text-align: left;
     padding: 20px;
-    background: #ffffff;
+    background: #fff;
     border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -322,15 +322,14 @@ button:hover {
 
     .profile-photo {
         margin-left: 0;
-        margin-top: 20px;
+        margin-bottom: 20px; /* Add margin to separate the photo from the text */
+    }
+
+    .expert-details {
+        flex-direction: column-reverse; /* Stack photo and text vertically, photo first */
     }
 
     .expert-info {
         text-align: center; /* Center text for mobile view */
-    }
-
-    .scroll-down {
-        font-size: 1.5em; /* Adjust font size for mobile view */
-        bottom: 130px; /* Adjust position for mobile view */
     }
 }
