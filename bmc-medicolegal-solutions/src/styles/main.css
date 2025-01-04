@@ -228,7 +228,7 @@ button:hover {
 
 .scroll-down {
     position: absolute;
-    bottom: 20px;
+    bottom: 50px; /* Adjust position to be a little bit higher */
     font-size: 2em;
     color: #fff;
     animation: bounce 2s infinite;
@@ -331,6 +331,6 @@ button:hover {
 
     .scroll-down {
         font-size: 1.5em; /* Adjust font size for mobile view */
-        bottom: 10px; /* Adjust position for mobile view */
+        bottom: 30px; /* Adjust position for mobile view */
     }
 }
