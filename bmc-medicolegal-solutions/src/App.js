@@ -27,7 +27,7 @@ function App() {
     };
 
     scrollDown();
-    setTimeout(scrollUp, 400);
+    setTimeout(scrollUp, 500);
   }, []);
 
   return (
