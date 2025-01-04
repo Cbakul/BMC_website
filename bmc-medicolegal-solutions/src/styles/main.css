@@ -331,6 +331,6 @@ button:hover {
 
     .scroll-down {
         font-size: 1.5em; /* Adjust font size for mobile view */
-        bottom: 30px; /* Adjust position for mobile view */
+        bottom: 100px; /* Adjust position for mobile view */
     }
 }
