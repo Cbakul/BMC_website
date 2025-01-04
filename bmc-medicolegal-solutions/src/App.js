@@ -7,7 +7,7 @@ import WhoWeServe from './components/WhoWeServe';
 import Contact from './components/Contact';
 import MeetTheExperts from './components/MeetTheExperts';
 import './styles/main.css';
-import heroImage from './assets/hero-image.png'; // Ensure you have a hero image in the assets folder
+import heroImage from './assets/hero-image3.jpg'; // Ensure you have a hero image in the assets folder
 import { FaArrowDown } from 'react-icons/fa';
 
 function App() {
