@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BMC_website/static/css/main.a6287f53.css",
+    "main.css": "/BMC_website/static/css/main.9cfebd9c.css",
     "main.js": "/BMC_website/static/js/main.c2565300.js",
     "static/media/logo.png": "/BMC_website/static/media/logo.e47efb8b7436ffc5cb12.png",
     "static/media/hero-image.png": "/BMC_website/static/media/hero-image.5377396c9580793c5ee5.png",
     "static/media/profile-photo.jpg": "/BMC_website/static/media/profile-photo.dd99466746b9ec7b7173.jpg",
     "index.html": "/BMC_website/index.html",
-    "main.a6287f53.css.map": "/BMC_website/static/css/main.a6287f53.css.map",
+    "main.9cfebd9c.css.map": "/BMC_website/static/css/main.9cfebd9c.css.map",
     "main.c2565300.js.map": "/BMC_website/static/js/main.c2565300.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6287f53.css",
+    "static/css/main.9cfebd9c.css",
     "static/js/main.c2565300.js"
   ]
 }
