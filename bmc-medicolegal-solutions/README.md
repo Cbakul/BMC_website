@@ -1,10 +1,10 @@
-# BMC Medicolegal Solutions
+# Venetus Mirror Health Tech
 
-Welcome to the BMC Medicolegal Solutions project! This React application provides a comprehensive overview of our medicolegal consulting services, areas of expertise, and the clients we serve.
+Welcome to the Venetus Mirror Health Tech project! This React application provides a comprehensive overview of our medicolegal consulting services, areas of expertise, and the clients we serve.
 
 ## Project Overview
 
-BMC Medicolegal Solutions is where medical expertise meets legal excellence. We offer a range of specialized services to assist hospitals, insurance companies, and individuals in navigating the complexities of medicolegal issues.
+Venetus Mirror Health Tech is where medical expertise meets legal excellence. We offer a range of specialized services to assist hospitals, insurance companies, and individuals in navigating the complexities of medicolegal issues.
 
 ## Features
 

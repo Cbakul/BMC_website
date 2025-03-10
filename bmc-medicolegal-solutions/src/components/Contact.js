@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { trackEvent } from '../utils/analytics';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -23,6 +24,9 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Track form submission
+    trackEvent('Contact', 'Form Submit', 'Contact Form');
 
     const templateParams = {
       fullName: formData.fullName,

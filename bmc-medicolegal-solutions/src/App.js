@@ -9,6 +9,7 @@ import MeetTheExperts from './components/MeetTheExperts';
 import './styles/main.css';
 import heroImage from './assets/hero-image3.jpg'; // Ensure you have a hero image in the assets folder
 import { FaArrowDown } from 'react-icons/fa';
+import { trackPageView } from './utils/analytics';
 
 function App() {
   useEffect(() => {
@@ -28,13 +29,16 @@ function App() {
 
     scrollDown();
     setTimeout(scrollUp, 500);
+
+    // Track page view
+    trackPageView(window.location.pathname);
   }, []);
 
   return (
     <div className="App">
       <Header />
       <div className="hero">
-        <h1>Welcome to BMC Insurance Solutions</h1>
+        <h1>Welcome to Venetus Mirror Health Tech</h1>
         <p>Your trusted partner in medicolegal expertise</p>
         <a href="#contact" className="cta-button">Contact Us</a>
         <div className="scroll-down">
