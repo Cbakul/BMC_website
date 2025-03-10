@@ -30,8 +30,7 @@ Venetus Mirror Health Tech is where medical expertise meets legal excellence. We
 ## Contact Information
 
 - **Location**: Pune, Maharashtra, India
-- **Phone**: +91-9881409217
-- **Email**: cbakul@gmail.com
+- **Email**: bmcmedicolegalservices@gmail.com
 
 ## Getting Started
 
@@ -39,7 +38,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/yourusername/bmc-medicolegal-solutions.git
+   git clone https://github.com/Cbakul/BMC_website.git
    ```
 2. Install NPM packages
    ```bash
