@@ -1,5 +1,5 @@
 {
-  "name": "bmc-medicolegal-solutions",
+  "name": "venetus-mirror-health-tech",
   "version": "1.0.0",
   "description": "Where Medical Expertise Meets Legal Excellence",
   "main": "src/index.js",
@@ -17,7 +17,7 @@
     "healthcare",
     "insurance"
   ],
-  "author": "BMC Medicolegal Solutions",
+  "author": "Venetus Mirror Health Tech LLP",
   "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -37,10 +37,10 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.25.9"
   },
-  "homepage": "http://Cbakul.github.io/BMC_website",
+  "homepage": "http://Cbakul.github.io/venetus-mirror-health-tech",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/bmc-medicolegal-solutions.git"
+    "url": "https://github.com/Cbakul/BMC_website.git"
   },
   "browserslist": {
     "production": [
